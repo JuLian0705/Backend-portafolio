@@ -14,7 +14,7 @@ EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER", "sabogaljulian27@gmail.com")
 
 @app.route('/')
 def home():
-    return "¡Hola desde Railway!"
+    return "¡Hola desde vercel!"
 
 @app.route("/send-email", methods=["POST"])
 def send_email():
